@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(haname.vn www.haname.vn)
+domains=(dichvudoanhnghiep.online www.dichvudoanhnghiep.online)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="lehai@haname.vn" # Adding a valid address is strongly recommended
